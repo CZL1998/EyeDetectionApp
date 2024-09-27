@@ -7,10 +7,26 @@
 - Flask を使用した Web アプリケーション
 - OpenCV を利用した顔認識技術
 
-## 使用方法
-1. `start_flask_app.bat` を実行して、アプリケーションを起動します。
-2. ブラウザで `http://127.0.0.1:5000` にアクセスし、カメラでリアルタイムの顔および目の検出を行います。
-- cmd ウィンドウで CTRL+C を押して、アプリケーションを終了します。
+## インストール方法
+
+1. このリポジトリをクローンします：
+    ```bash
+    git clone https://github.com/CZL1998/EyeDetectionApp.git
+    ```
+
+2. 仮想環境を作成して依存パッケージをインストールします：
+    ```bash
+    python -m venv venv
+    venv\Scripts\activate  # Windows
+    pip install -r requirements.txt
+    ```
+
+3. アプリケーションを起動します：
+    ```bash
+    python app.py
+    ```
+
+4. ブラウザで `http://127.0.0.1:5000` にアクセスして、アプリを確認します。
 
 ## 必要条件
 - Python 3.x
